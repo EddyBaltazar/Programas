@@ -1,0 +1,20 @@
+# Programas
+#include<stdio.h>
+#include<math.h>
+
+int main ()
+{
+    float a, b, c, x, y;
+    printf ("\t\t La formula del chicharronero\n");
+    printf ("Escribe el valor de a\n");
+    scanf ("%f",&a);
+    printf ("Ahora dame el valor de b\n");
+    scanf ("%f",&b);
+    printf ("Por ultimo dame el valor de c\n");
+    scanf ("%f",&c);
+    x=(-b + sqrt(b*b-4*a*c))/(2*a);
+    printf ("X1 es igual a: %f\n",x);
+    y=(-b - sqrt(b*b-4*a*c))/(2*a);
+    printf ("X2 es igual a: %f\n",y);
+    return 0;
+}
