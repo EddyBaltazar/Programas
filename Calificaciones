@@ -1,0 +1,35 @@
+# Programas
+#include<stdio.h>
+//Chair es para variable de tipo letra, Int para variable tipo entera, Float es para variable de tipo decimal.
+int main ()
+{
+    char calif; //Calificacion en letra
+    printf ("\t Escribe la calificacion en letra:\n ");
+    scanf ("%c",&calif);
+
+    if (calif=='A' || calif=='a') // "||" es para opciones, si es "A" o "a"
+    {
+        printf ("Tienes 10");
+    }
+       else if (calif=='B' || calif=='b')
+        {
+            printf ("Tienes 9");
+        }
+        else if (calif=='C' || calif=='c')
+        {
+            printf ("Tienes 8");
+        }
+        else if (calif=='D' || calif=='d')
+        {
+            printf ("Tienes 7");
+        }
+        else if (calif=='E' || calif=='e')
+        {
+            printf ("Tienes 6");
+        }
+        else
+        {
+            printf ("Estas reprobado");
+        }
+    return 0;
+}
