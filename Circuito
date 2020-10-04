@@ -1,0 +1,24 @@
+// Intensidad (Corriente) = Voltaje / Resistencia
+#include<stdio.h>
+int main ()
+{
+    float e, f, g;
+    int a,b,c, d;
+    printf ("\tPrograma para calcular el valor de la corriente\n");
+    printf ("Dame el valor de la primera resistencia:\n");
+    scanf ("%d",&a);
+    printf ("Dame el valor de la segunda resistencia:\n");
+    scanf ("%d",&b);
+    printf ("Dame el valor de la tercera resistencia:\n");
+    scanf ("%d",&c);
+    printf ("Ahora dame el valor del voltaje o fuente:\n");
+    scanf ("%d",&d);
+    e = d/a;
+    f = d/b;
+    g = d/c;
+    printf ("El valor de las corrientes son:\n");
+    printf ("Corriente 1: %f\n",e);
+    printf ("Corriente 2: %f\n",f);
+    printf ("Corriente 3: %.2f\n",g);
+    return 0;
+}
