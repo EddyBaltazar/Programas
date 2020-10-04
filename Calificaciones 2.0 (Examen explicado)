@@ -1,0 +1,81 @@
+# Programas
+#include<stdio.h>
+int main ()
+{
+char c1, c2, c3;
+float w, x, y, z, a;
+printf ("\t\t\tPrograma para calcular tu promedio, de acuerdo a 3 calificaciones:\n");
+printf ("Dame tu primera calificacion en letra\n");
+scanf ("%s",&c1);
+w=0;
+if (c1=='a' || c1=='A')
+        {
+            x=w+10;
+        }
+    else if (c1=='b' || c1=='B')
+        {
+            x=w+9;
+        }
+    else if (c1=='c' || c1=='C')
+        {
+            x=w+8;
+        }
+    else if (c1=='d' || c1=='D')
+        {
+            x=w+7;
+        }
+    else if (c1=='e' || c1=='E')
+        {
+            x=w+6;
+        }
+printf ("Dame tu segunda calificacion en letra\n");
+scanf ("%s",&c2);
+if (c2=='a' || c2=='A')
+    {
+        y=x+10;
+    }
+    else if (c2=='b' || c2=='B')
+        {
+            y=x+9;
+        }
+    else if (c2=='c' || c2=='C')
+        {
+            y=x+8;
+        }
+    else if (c2=='d' || c2=='D')
+        {
+            y=x+7;
+        }
+    else if (c2=='e' || c2=='E')
+        {
+            y=x+6;
+        }
+printf ("Dame tu ultima calificacion en letra\n");
+scanf ("%s",&c3);
+if (c3=='a' || c3=='A')
+    {
+        z=y+10;
+    }
+    else if (c3=='b' || c3=='B')
+        {
+            z=y+9;
+        }
+    else if (c3=='c' || c3=='C')
+        {
+            z=y+8;
+        }
+    else if (c3=='d' || c3=='D')
+        {
+            z=y+7;
+        }
+    else if (c3=='e' || c3=='E')
+        {
+            z=y+6;
+        }
+    else
+    {
+        printf ("\t\t Estas reprobado bro\n");
+    }
+a=z/3;
+printf ("Tu promedio es: %f",a);
+}
